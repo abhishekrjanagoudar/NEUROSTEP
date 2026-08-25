@@ -6,7 +6,7 @@ import argparse
 class StairsTaskConfig:
     task_name: str = "stairs"
     headless: bool = True
-    num_envs: int = 4096
+    num_envs: int = 512
 
 
 def parse_args() -> argparse.Namespace:
