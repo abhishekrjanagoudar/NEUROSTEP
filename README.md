@@ -33,14 +33,14 @@ conda activate neurostep
 
 ## Validate End-to-End Pipeline with Stock Demo Task
 
-Launch the stock Isaac Lab RSL-RL Ant task in headless mode:
+Launch the stock Isaac Lab Ant task in headless mode:
 
 ```bash
-python /home/runner/work/NEUROSTEP/NEUROSTEP/scripts/train.py --task Isaac-Ant-v0 --headless --num_envs 4096
+python scripts/train.py --task Isaac-Ant-v0 --headless --num_envs 512
 ```
 
 If Isaac Lab is installed at a non-default path:
 
 ```bash
-ISAACLAB_ROOT=/path/to/IsaacLab python /home/runner/work/NEUROSTEP/NEUROSTEP/scripts/train.py --task Isaac-Ant-v0 --headless --num_envs 4096
+ISAACLAB_ROOT=/path/to/IsaacLab python scripts/train.py --task Isaac-Ant-v0 --headless --num_envs 512
 ```

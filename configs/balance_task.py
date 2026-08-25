@@ -6,7 +6,7 @@ import argparse
 class BalanceTaskConfig:
     task_name: str = "balance"
     headless: bool = True
-    num_envs: int = 4096
+    num_envs: int = 512
 
 
 def parse_args() -> argparse.Namespace:
