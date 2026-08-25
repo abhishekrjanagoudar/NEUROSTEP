@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+
+# Training artifacts
+checkpoints/*
+!checkpoints/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# TensorBoard
+runs/
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.DS_Store

@@ -1,0 +1,11 @@
+name: neurostep
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - pip:
+      - rsl-rl-lib
+      - tensorboard
+      - gymnasium
